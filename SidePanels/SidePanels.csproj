@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-ios</TargetFramework>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -10,8 +10,5 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <ConsolePause>false</ConsolePause>
     <DocumentationFile>bin\Release\SidePanels.xml</DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetFramework>net60-ios</TargetFramework>
   </PropertyGroup>
 </Project>
