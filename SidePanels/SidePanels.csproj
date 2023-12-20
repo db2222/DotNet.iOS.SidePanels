@@ -1,5 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Version>1.0.1</Version>
     <TargetFramework>net8.0-ios</TargetFramework>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -10,6 +11,8 @@
     <Authors>.NET Foundation Contributors, db2222</Authors>
     <Copyright>MIT License</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>JASidePanels is a UIViewController container designed for presenting a center panel with revealable side panels - one to the left and one to the right.
+Compatible with &gt;= .NET 8.</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <ConsolePause>false</ConsolePause>
