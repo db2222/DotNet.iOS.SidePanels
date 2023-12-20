@@ -2,6 +2,14 @@
   <PropertyGroup>
     <TargetFramework>net8.0-ios</TargetFramework>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>DotNet.iOS.SidePanels</Title>
+    <PackageId>DotNet.iOS.SidePanels</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/db2222/DotNet.iOS.SidePanels</PackageProjectUrl>
+    <Authors>.NET Foundation Contributors, db2222</Authors>
+    <Copyright>MIT License</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <ConsolePause>false</ConsolePause>
@@ -11,4 +19,14 @@
     <ConsolePause>false</ConsolePause>
     <DocumentationFile>bin\Release\SidePanels.xml</DocumentationFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>
