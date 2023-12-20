@@ -4,7 +4,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>DotNet.iOS.SidePanels</Title>
-    <PackageId>DotNet.iOS.SidePanels</PackageId>
+    <PackageId>iOS.SidePanels</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/db2222/DotNet.iOS.SidePanels</PackageProjectUrl>
     <Authors>.NET Foundation Contributors, db2222</Authors>
